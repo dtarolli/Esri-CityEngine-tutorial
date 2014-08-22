@@ -36,7 +36,7 @@
 
 10. Make sure the 3D Analyst extension is enabled in ArcMap by going to Customize - Extensions and making sure the 3D Analyst extension is checked.
 
-11. Create a new LAS Dataset in the staging folder. Use the tips [here](http://resources.arcgis.com/en/help/main/10.2/index.html#//015w0000005r000000). County staff can use this existing [2013 LiDAR Dataset (.lasd)](file://gisserver/gis/Data/Current/LiDAR/2013/).
+11. Create a new LAS Dataset in the staging folder. Use the tips [here](http://resources.arcgis.com/en/help/main/10.2/index.html#//015w0000005r000000).
 
 12. Add the LAS dataset to your MXD and enable the LAS Dataset toolbar.
 
