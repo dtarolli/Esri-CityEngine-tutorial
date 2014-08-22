@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Creating 3D Models in CityEngine in San Juan County, Washington</title>
+<!-- 2014-08-22 Fri 15:54 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Nick Peihl" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Creating 3D Models in CityEngine in San Juan County, Washington</h1>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Procedure</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Requirements</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>GIS Data
+
+<p>
+Roads, Parcels, Building Footprints, Imagery, 2013 LiDAR data
+</p>
+</li>
+
+<li>Software
+
+<p>
+ArcGIS v10.1+ with 3D Analyst Extension
+</p>
+
+<p>
+Esri CityEngine 2014 (county employees should contact the GIS department for a license)
+</p>
+</li>
+
+<li><a href="http://www.esri.com/software/cityengine/industries/redlands-redevelopment">Redlands Redevelopment Tutorial</a> 
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> Prepare the data</h3>
+<div class="outline-text-3" id="text-1-2">
+<ol class="org-ol">
+<li>Open a new MXD and add Roads, Parcels, Building Footprints and Imagery
+</li>
+
+<li>Create a Staging Folder for the data to be imported into CityEngine and save the MXD in that folder.
+</li>
+
+<li>Create a Staging File Geodatabase in the Staging folder created in the last step.
+</li>
+
+<li>Create a new polygon feature class in the file geodatabase created in the previous step. Name it Data_Extent.
+</li>
+
+<li>Add the Data_Extent feature class to your MXD and start editing.
+</li>
+
+<li>Create a new rectangle polygon in the Data_Extent feature class and draw the box around the data you want to use in CityEngine. Typically this should be a small area of only a few blocks. Too much data may cause performance issues. Stop editing and save your edits.
+</li>
+
+<li>Use the Clip geoprocessing tool to clip the Roads, Parcels and Building footprints feature classes to the Data_Extent polygon. Save the results in the staging file geodatabase.
+</li>
+
+<li>Since we don't have an existing Tree inventory, create a new point feature class in the staging file geodatabase called "Trees". You may want to Import fields from the trees feature class in the <a href="http://www.esri.com/software/cityengine/industries/redlands-redevelopment">Redlands Redevelopment Tutorial</a>.
+</li>
+
+<li>Add the new Trees feature class to your MXD and use aerial imagery to place tree locations. You may want to symbolize the points using a 2D tree symbol. You don't have to fill in the attribute table to move on.
+</li>
+
+<li>Make sure the 3D Analyst extension is enabled in ArcMap by going to Customize - Extensions and making sure the 3D Analyst extension is checked.
+</li>
+
+<li>Create a new LAS Dataset in the staging folder. Use the tips <a href="http://resources.arcgis.com/en/help/main/10.2/index.html#//015w0000005r000000">here</a>. County staff can use this existing <a href="file://gisserver/gis/Data/Current/LiDAR/2013/">2013 LiDAR Dataset (.lasd)</a>.
+</li>
+
+<li>Add the LAS dataset to your MXD and enable the LAS Dataset toolbar.
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-sec-1-3" class="outline-3">
+<h3 id="sec-1-3"><span class="section-number-3">1.3</span> Create elevation rasters</h3>
+<div class="outline-text-3" id="text-1-3">
+<ol class="org-ol">
+<li>Select your LAS dataset in the dropdown box in the LAS Dataset toolbar, click on the Filters box and select Ground.
+</li>
+
+<li>Run the LAS Dataset to Raster geoprocessing tool (Under Conversion Tools - To Raster) using the following options to create a Digital Terrain Model (DTM) showing the elevation of only the ground.
+
+<ul class="org-ul">
+<li>Input LAS Dataset: &lt;Select your LAS Dataset from dropdown list&gt;
+</li>
+
+<li>Output Raster: Save to your staging file geodatabase as DTM
+</li>
+
+<li>Value Field: ELEVATION
+</li>
+
+<li>Interpolation Type: Triangulation with NATURAL_NEIGHBOR interpolation method and NO_THINNING.
+</li>
+
+<li>Output Data Type: FLOAT
+</li>
+
+<li>Sampling Type: CELLSIZE
+</li>
+
+<li>Sampling Value: 3
+</li>
+
+<li>Z Factor: 1
+</li>
+
+<li>VERY IMPORTANT: Click on the Environments button and set the Processing Extent to the Same as your Data_Extent layer. This will ensure you only create a DTM for your area of interest rather than spending hours creating a countywide DTM.
+</li>
+</ul>
+</li>
+
+<li>Again, select your LAS dataset in the dropbox box on the LAS Dataset toolbar. This time set the Filter to First Return.
+</li>
+
+<li>We'll run the LAS Dataset to Raster geoprocessing tool again but with different parameters as below to create a Digital Surface Model (DSM) showing elevation of objects.
+
+<ul class="org-ul">
+<li>Input LAS Dataset: &lt;Select your LAS Dataset from dropdown list&gt;
+</li>
+
+<li>Output Raster: Save to your staging file geodatabase as DSM
+</li>
+
+<li>Value Field: ELEVATION
+</li>
+
+<li>Interpolation Type: Binning with MAXIMUM cell assignment type and NATURAL_NEIGHBOR void fill method.
+</li>
+
+<li>Output Data Type: FLOAT
+</li>
+
+<li>Sampling Type: CELLSIZE
+</li>
+
+<li>Sampling Value: 3
+</li>
+
+<li>Z Factor: 1
+</li>
+
+<li>VERY IMPORTANT: Click on the Environments button and set the Processing Extent to the Same as your Data_Extent layer. This will ensure you only create a DSM for your area of interest rather than spending hours creating a countywide DSM.
+</li>
+</ul>
+</li>
+
+<li>Next, we want to create a Normalised Digital Surface Model (nDSM) to get heights of objects above the ground. We do this using the Minus geoprocessing tool under 3D Analyst Tools - Raster Math. Use the options below.
+
+<ul class="org-ul">
+<li>Input Raster or Constant Value 1: Your DSM
+</li>
+
+<li>Input Raster or Constant Value 2: Your DEM
+</li>
+
+<li>Output Raster: Save to your staging file geodatabase as nDSM
+</li>
+</ul>
+</li>
+
+<li>Finally, we'll create a .tif file of our DTM. Open the Clip geoprocessing tool under Data Management Tools - Raster - Raster Processing and set the following parameters.
+
+<ul class="org-ul">
+<li>Input Raster: Your DTM layer
+</li>
+
+<li>Output Extent: Your Data_Extent layer
+</li>
+
+<li>Rectangle: Ignore this. The numbers are automatically filled in
+</li>
+
+<li>Output Raster Dataset: DTM.tif in your staging folder (not in geodatabase)
+</li>
+
+<li>Leave other values as default
+</li>
+</ul>
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-sec-1-4" class="outline-3">
+<h3 id="sec-1-4"><span class="section-number-3">1.4</span> Determine elevation of buildings</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+Now we have a normalised digital surface model we can use to determine the heights of buildings by sampling at random locations. 
+</p>
+
+<ol class="org-ol">
+<li>Find and open the "Create Random Points" geoprocessing tool under Data Management Tools - Feature Class. Use the following parameters.
+
+<ul class="org-ul">
+<li>Output Location: Your staging file geodatabase
+</li>
+
+<li>Output Point Feature Class: Random_Points
+</li>
+
+<li>Constraining Feature Class: Building Footprints
+</li>
+
+<li>Number of Points: Long option, value 100
+</li>
+
+<li>Minimum Allowed Distance: Linear unit set to 0 Meters
+</li>
+</ul>
+</li>
+
+<li>Next we'll use the normalised DSM to assign height values to those points. Open the Add Surface Information geoprocessing tool under 3D Analyst Tools - Functional Surface and use the following parameters.
+
+<ul class="org-ul">
+<li>Input Feature Class: Select Random_Points from the dropdown
+</li>
+
+<li>Input Surface: This is your nDSM raster dataset
+</li>
+
+<li>Output Property: Check the box for Z
+</li>
+
+<li>Method: BILINEAR
+</li>
+
+<li>Sampling Distance: Leave blank
+</li>
+</ul>
+</li>
+
+<li>Next we'll find the average height of the Random_Points for each building using the Summary Statistics geoprocessing tool under Analysis Tools - Statistics. Use the following parameters.
+
+<ul class="org-ul">
+<li>Input Table: Random_Points
+</li>
+
+<li>Output Table: Summary_Statistics.dbf in your staging folder
+</li>
+
+<li>Statistics Field(s): Field Z, Statistic Type MEAN
+</li>
+
+<li>Case Field(s): CID
+</li>
+</ul>
+</li>
+
+<li>The new table has a MEAN_Z field showing the average height for each building. Note: Large trees next to buildings can sometimes skew this number since the trees and buildings cannot be differentiated in the normalised digital surface model. You can manually look for and delete outlier points from the Random_Points before running the Summary Statistics tool.
+</li>
+
+<li>Next we'll assign each building its average height. Use the Add Join geoprocessing tool under Data Management - Joins with the following parameters.
+
+<ul class="org-ul">
+<li>Layer Name or Table View: Your Building Footprints layer
+</li>
+
+<li>Input Join Field: ObjectID
+</li>
+
+<li>Join Table: Summary_Statistics.dbf
+</li>
+
+<li>Output Join Field: CID
+</li>
+</ul>
+</li>
+
+<li>Now examine the attribute table for Building Footprints. You should see a MEAN_Z field added to each feature.
+</li>
+
+<li>Now we'll create a new feature class from this called Buildings_Final. Right click on the Building Footprints layer and choose Data &gt; Export Data. Save the new feature class to your staging file geodatabase but don't add it to the MXD yet.
+</li>
+
+<li>Find the new Buildings_Final feature class in ArcCatalog or your Catalog window in ArcMap. Open the properties of the feature class and go to the fields tab. Rename the MEAN_Z field and field alias to totalHeight.
+</li>
+
+<li>Now add the Buildings_Final feature class to your MXD and open the attribute table.
+</li>
+
+<li>The CityEngine tools we'll be working with were developed in Europe and they don't use our imperial measurement system. So we need to change our heights from feet to meters. Right-click on the totalHeight field in the attribute and select Field Calculator. Click Yes on the warning dialog box to continue.
+</li>
+
+<li>In the Field Calculator's expression box type "[totalHeight] * 0.3048" and click "OK". This will convert the heights from feet to meters.
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-sec-1-5" class="outline-3">
+<h3 id="sec-1-5"><span class="section-number-3">1.5</span> Get an aerial image for your Area of Interest</h3>
+<div class="outline-text-3" id="text-1-5">
+<p>
+CityEngine doesn't work well with large rasters. So we'll create a lower resolution JPG of our area of interest.
+</p>
+
+<ol class="org-ol">
+<li>Turn off all layers in your MXD except the aerial photo.
+</li>
+
+<li>Click on File - Export Map and use the following parameters to export a georeferenced aerial image to your staging folder.
+
+<ul class="org-ul">
+<li>File name: Orthophoto.jpg
+</li>
+
+<li>Save as type: JPEG
+</li>
+
+<li>General Tab
+
+<ul class="org-ul">
+<li>Resolution: 100-150 dpi
+</li>
+
+<li>Check the box for "Write World File"
+</li>
+</ul>
+</li>
+
+<li>Format Tab
+
+<ul class="org-ul">
+<li>Color Mode: 24-bit True Color
+</li>
+
+<li>JPEG Quality: About 75 is good
+</li>
+
+<li>Background Color: White
+</li>
+
+<li>Check the box for "Progressive"
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>After you save, check the size of your JPG image. For best results, try to keep it between 500KB - 1MB. You may have to raise or lower the resolution to get the optimal size.
+</li>
+
+<li>Add the image to ArcMap and check that it's properly referenced to your data. If it isn't, go back and make sure you selected "Write World File" when you exported the image.
+</li>
+
+<li>Now we'll clip the image to match our DTM. Open the Clip geoprocessing tool located in Data Management Tools - Raster - Raster Processing. Set the following parameters.
+
+<ul class="org-ul">
+<li>Input Raster: Orthophoto.jpg
+</li>
+
+<li>Output Extent: Your DTM layer
+</li>
+
+<li>Rectangle: Ignore. It's automatically populated
+</li>
+
+<li>Output Raster Dataset: Orthophoto_final.jpg in your staging folder
+</li>
+
+<li>Other options leave as default.
+</li>
+</ul>
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-sec-1-6" class="outline-3">
+<h3 id="sec-1-6"><span class="section-number-3">1.6</span> Setting up Esri CityEngine with your GIS data</h3>
+<div class="outline-text-3" id="text-1-6">
+<p>
+I have only tested these steps with the Advanced version of CityEngine, but I believe they should work with the Basic version, too.
+</p>
+
+<ol class="org-ol">
+<li>If you haven't already done so, download and extract the Redlands Redevelopment tutorial data from <a href="http://www.arcgis.com/home/item.html?id=ff937324c7f2479d8895ec8f79278a4a&_ga=1.172552032.292721704.1399587999">here</a>.
+</li>
+
+<li>Open CityEngine 2014 and go to File-New and create a new CityEngine Project. Name it after your area of interest (ex. Eastsound, LopezVillage, FridayHarbor). You may also want to change the default location.
+
+
+<div class="figure">
+<p><img src="images/MyCityEngineProject.png" alt="MyCityEngineProject.png" />
+</p>
+</div>
+</li>
+
+<li>Expand your new project in the Navigator window and right-click on the "scenes" folder. Create a new CityEngine scene and name it something like "Existing Conditions.cej". Set the coordinate system to match your data (i.e. EPSG:2285).
+
+
+<div class="figure">
+<p><img src="images/CityEngine_Scene.png" alt="CityEngine_Scene.png" />
+</p>
+</div>
+</li>
+
+<li>In the Navigator window, right-click the top level folder that is the name of your project and select Import.
+</li>
+
+<li>On the Import wizard, select Archive File under the Files into Existing Project folder. Then click Next.
+
+
+<div class="figure">
+<p><img src="images/CityEngine_ImportData.png" alt="CityEngine_ImportData.png" />
+</p>
+</div>
+</li>
+
+<li>Browse for the location you downloaded the Redlands Redevelopment data to and open the folder called 3D_City_Design_Training and double-click the file named DataForCityEngineImport.zip.
+</li>
+
+<li>Select the top level folder in the left pane and click the "Deselect All" button to remove all checkboxes.
+</li>
+
+<li>Now expand the top level folder and check only the boxes for "assets", "bin", "maps" and "rules". The Into folder box should be the name of your project. Click Finish.
+
+
+<div class="figure">
+<p><img src="images/CityEngine_ArchiveFile.png" alt="CityEngine_ArchiveFile.png" />
+</p>
+</div>
+</li>
+
+<li>When the tutorial data is done importing, we'll want to import our GIS data.
+</li>
+
+<li>Right-click on the "data" folder in your project and select Import.
+</li>
+
+<li>Under CityEngine layers, select File GDB Import and click Next.
+
+
+<div class="figure">
+<p><img src="images/CityEngine_ImportFGDB.png" alt="CityEngine_ImportFGDB.png" />
+</p>
+</div>
+</li>
+
+<li>Locate your staging file geodatabase using the Browse button.
+</li>
+
+<li>Check only the boxes for the Roads, Buildings_Final, Parcels and Trees layers.
+
+
+<div class="figure">
+<p><img src="images/CityEngine_ImportFGDB_2.png" alt="CityEngine_ImportFGDB_2.png" />
+</p>
+</div>
+</li>
+
+<li>Leave all other settings default and click Finish. Now you should see nodes and shading in the Viewport window.
+
+
+<div class="figure">
+<p><img src="images/CityEngine_Viewport.png" alt="CityEngine_Viewport.png" />
+</p>
+</div>
+</li>
+
+<li>Navigate to your staging folder in Windows Explorer. Select the DTM.tif and Orthophoto_final.jpg and right-click and select Copy.
+</li>
+
+<li>Now navigate to your CityEngine project folder in Windows Explorer. Open the "maps" folder and paste the DTM.tif and Orthophoto_final.jpg files in there.
+</li>
+
+<li>Back in CityEngine, right click on the "maps" folder in the Navigator window and select Refresh. You should see both files in there now.
+
+
+<div class="figure">
+<p><img src="images/CityEngine_Maps.png" alt="CityEngine_Maps.png" />
+</p>
+</div>
+</li>
+
+<li>Notice the Scene window. You can turn on or off layers by clicking the eye icons next to them.
+
+
+<div class="figure">
+<p><img src="images/CityEngine_SceneWindow.png" alt="CityEngine_SceneWindow.png" />
+</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-sec-1-7" class="outline-3">
+<h3 id="sec-1-7"><span class="section-number-3">1.7</span> Making it pretty in CityEngine</h3>
+<div class="outline-text-3" id="text-1-7">
+<ol class="org-ol">
+<li>Click on File and select Import.
+</li>
+
+<li>Under CityEngine Layers, select Terrain Import and click Next.
+
+
+<div class="figure">
+<p><img src="images/CityEngine_TerrainImport.png" alt="CityEngine_TerrainImport.png" />
+</p>
+</div>
+</li>
+
+<li>For the Heightmap file browse to the "maps" folder and select DTM.tif.
+</li>
+
+<li>For the Texture file use the Orthophoto_final.jpg also located in the "maps" folder.
+</li>
+
+<li>Leave the other settings as default and click Finish.
+
+
+<div class="figure">
+<p><img src="images/Terrain.png" alt="Terrain.png" />
+</p>
+</div>
+</li>
+
+<li>Right-click on the Terrain DTM layer in the Scene window and select "Frame Layer" to view the extent.
+</li>
+
+<li>In the Scene window, right-click on Roads and select "Align Graph to Terrain". Use the following parameters:
+
+<ul class="org-ul">
+<li>Align function: Project All
+</li>
+
+<li>Heightmap: Terrain DTM
+</li>
+</ul>
+</li>
+
+<li>Your Roads layer should now be draped over the terrain.
+
+
+<div class="figure">
+<p><img src="images/Terrain_Viewport.png" alt="Terrain_Viewport.png" />
+</p>
+</div>
+</li>
+
+<li>Select all streets by right-clicking Roads again and choose Select - Select Objects in Same Layer.
+</li>
+
+<li>Then click the "Align Terrain to Shapes" tool on the toolbar.
+
+
+<div class="figure">
+<p><img src="images/Align_Terrain_To_Shapes.png" alt="Align_Terrain_To_Shapes.png" />
+</p>
+</div>
+</li>
+
+<li>Set the following parameters for Align Terrain to Shapes
+
+<ul class="org-ul">
+<li>Terrain: Terrain DTM
+</li>
+
+<li>Raise Terrain, Lower Terrain, Add border: All checked
+</li>
+
+<li>Maximal raise distance and Maximal lower distance: 100
+
+
+<div class="figure">
+<p><img src="images/Align_Terrain_To_Shapes_2.png" alt="Align_Terrain_To_Shapes_2.png" />
+</p>
+</div>
+</li>
+</ul>
+</li>
+
+<li>Now we'll align the other vector data. Hold Ctrl and select Buildings and Trees in the Scene window.
+</li>
+
+<li>Right-click the selected layers and choose "Align Shapes to Terrain". Use the following parameters:
+
+<ul class="org-ul">
+<li>Align function: Translate to Maximum
+</li>
+
+<li>Heightmap: Terrain DTM
+
+
+<div class="figure">
+<p><img src="images/Align_Terrain_To_Shapes_3.png" alt="Align_Terrain_To_Shapes_3.png" />
+</p>
+</div>
+</li>
+</ul>
+</li>
+
+<li>Now the buildings and trees layer are draped on top of the terrain.
+</li>
+
+<li>Next, we'll assign rules to the GIS Data to create 3D models.
+</li>
+
+<li>Right-click the Buildings layer in the Scene window and select "Assign Rule File".
+</li>
+
+<li>In the 3D_City_Design_Rules folder double-click on Building Construction.cga.
+
+
+<div class="figure">
+<p><img src="images/Building_Construction.png" alt="Building_Construction.png" />
+</p>
+</div>
+</li>
+
+<li>Right-click the Buildings layer again and this time, select "Generate". The buildings should start to extrude.
+</li>
+
+<li>Right-click the Buildings layer and click "Select - Select Objects in the Same Layer".
+</li>
+
+<li>In the Inspector window, find and expand the "Zoning" tab. Under "3D FORM HEIGHT LIMIT" set "Height_Method" to "Limit Height to Max_Height".
+
+
+<div class="figure">
+<p><img src="images/Height_method.png" alt="Height_method.png" />
+</p>
+</div>
+</li>
+
+<li>Also under "3D FORM HEIGHT LIMIT" click on the Attribute Connector button next to "Max_Height".
+
+
+<div class="figure">
+<p><img src="images/Max_Height.png" alt="Max_Height.png" />
+</p>
+</div>
+</li>
+
+<li>In the Attribute Connection Editor window, change the selected button to "Layer attribute". Set the following parameters:
+
+<ul class="org-ul">
+<li>Select Layer: Buildings
+</li>
+
+<li>Select Source: totalHeight
+
+
+<div class="figure">
+<p><img src="images/Attribute_Connection_Editor_buildings.png" alt="Attribute_Connection_Editor_buildings.png" />
+</p>
+</div>
+</li>
+</ul>
+</li>
+
+<li>Now the buildings should be the correct heights.
+</li>
+
+<li>While the buildings are still selected, click the "Align Terrain to Shapes" button on the toolbar. Leave the default settings.
+
+
+<div class="figure">
+<p><img src="images/Align_Terrain_To_Shapes.png" alt="Align_Terrain_To_Shapes.png" />
+</p>
+</div>
+</li>
+
+<li>Again, with the buildings still selected, open the Facade Construction tab in the Inspector Window. Set the "Generate_Facades" switch to "On".
+
+
+<div class="figure">
+<p><img src="images/Generate_Facades.png" alt="Generate_Facades.png" />
+</p>
+</div>
+</li>
+
+<li>Optionally, change the Wall_Texture under "Facade Construction - WALLS" to your desired look.
+
+
+<div class="figure">
+<p><img src="images/Wall_Texture.png" alt="Wall_Texture.png" />
+</p>
+</div>
+</li>
+
+<li>Right-click the Roads layer in the Scene window and "Assign Rule File", choosing "Street Construction.cga".
+</li>
+
+<li>Right-click the Roads layer and click "Generate".
+</li>
+
+<li>Right-click the Trees layer and choose the "Points to Trees.cga" rule to assign to it. Then Generate the trees.
+</li>
+
+<li>The Trees may appear with black wireframes. Click the "View Settings" button on the toolbar and click "Wireframe on Shaded/Textured" to toggle it off.
+
+
+<div class="figure">
+<p><img src="images/Wireframe_Shaded.png" alt="Wireframe_Shaded.png" />
+</p>
+</div>
+</li>
+
+<li>Optionally, select all or individual trees and change the Name and Height in the "Tree" tab of the Inspector window. Remeber, heights are in meters, not feet.
+
+
+<div class="figure">
+<p><img src="images/Trees.png" alt="Trees.png" />
+</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-sec-1-8" class="outline-3">
+<h3 id="sec-1-8"><span class="section-number-3">1.8</span> Sharing your CityEngine Model</h3>
+<div class="outline-text-3" id="text-1-8">
+<p>
+Now we'll share our 3D Model to ArcGIS Online as a web scene so others can view it.
+</p>
+
+<ol class="org-ol">
+<li>Use the Move tools on the toolbar to pan, zoom and rotate your view.
+
+
+<div class="figure">
+<p><img src="images/Move_tools.png" alt="Move_tools.png" />
+</p>
+</div>
+</li>
+
+<li>Click the "Bookmark" button on the toolbar to save a view. This will be a selectable option in the web scene. Do this several times with different views.
+
+
+<div class="figure">
+<p><img src="images/Bookmark_button.png" alt="Bookmark_button.png" />
+</p>
+</div>
+</li>
+
+<li>Now, turn on all layers in the Scene window that you want in the web scene.
+</li>
+
+<li>Right-click inside the viewport window and click "Select - Select All".
+</li>
+
+<li>In the File menu, click "Export Models".
+</li>
+
+<li>For the Model Export, choose "CityEngine Web Scene" and click "Next".
+</li>
+
+<li>Use the following parameters for the "CityEngine WebScene" dialog box.
+
+<ul class="org-ul">
+<li>Output Path: &lt;Use the "models" folder in your workspace&gt;
+</li>
+
+<li>Scene Name: &lt;The name of your scene&gt;
+</li>
+
+<li>Exported Content: Export Generatable Models
+</li>
+
+<li>Terrain Layers: Export all visible terrain layers
+</li>
+
+<li>Leave default settings for the rest and click "Next"
+
+
+<div class="figure">
+<p><img src="images/CityEngine_WebScene.png" alt="CityEngine_WebScene.png" />
+</p>
+</div>
+</li>
+</ul>
+</li>
+
+<li>Make sure all layers are enabled in the "Per Layer Options" dialog box and click "Finish".
+</li>
+
+<li>Next we'll view the web scene before sharing it. 
+NOTE: At the time of writing, only Mozilla Firefox and Google Chrome can view the web scenes. Internet Explorer will not work. Please inform the people you share with.
+</li>
+
+<li>Under the "File" menu, click "Refresh Workspace".
+</li>
+
+<li>In the Navigator window, expand the "models" folder in your workspace.
+</li>
+
+<li>Right-click the 3ws file, select "Open With - 3D Web Scene Viewer (Offline)". The web scene should open in Firefox or Chrome.
+
+
+<div class="figure">
+<p><img src="images/3D_Web_Scene_Viewer_offline.png" alt="3D_Web_Scene_Viewer_offline.png" />
+</p>
+</div>
+</li>
+
+<li>If the Web Scene doesn't load in either Firefox or Chrome, you may need to update your video card drivers. See your IT person for help.
+</li>
+
+<li>Look for your bookmarks. They should appear as selectable thumbnails at the bottom of the webscene.
+</li>
+
+<li>Pan and rotate around the web scene by holding different mouse keys and dragging the mouse. Zoom in or out using your mouse wheel.
+</li>
+
+<li>You can turn layers on and off by clicking the "eye" icons on the right side of the web scene.
+</li>
+
+<li>Open the "Settings" tab and check the boxes under "Shadowing". Drag the Sunlight slider to alter the lighting.
+
+
+<div class="figure">
+<p><img src="images/WebScene_Settings.png" alt="WebScene_Settings.png" />
+</p>
+</div>
+</li>
+
+<li>To share the web scene with others you have to upload it to ArcGIS Online.
+</li>
+
+<li>If you don't have an ArcGIS Online account, check with your GIS Staff or Esri Account Manager to get one set up.
+</li>
+
+<li>Back in CityEngine, click "File - Sign In&#x2026;" and enter your ArcGIS Online account information.
+</li>
+
+<li>Right-click on the 3ws file in the "models" folder and select "Share As".
+</li>
+
+<li>In the CityEngine Web Scene Package dialog box, select "Upload package to my ArcGIS Online or Portal account".
+</li>
+
+<li>On the left, select "Item Description" and fill in details about your web scene.
+
+
+<div class="figure">
+<p><img src="images/CityEngine_Web_Scene_Package.png" alt="CityEngine_Web_Scene_Package.png" />
+</p>
+</div>
+</li>
+
+<li>On the left again, select the "Sharing" tab and check the box for "Everyone (public)".
+</li>
+
+<li>Finally click the "Share" button to upload your web scene.
+</li>
+
+<li>After the upload succeeds, open <a href="http://arcgis.com/home/">http://arcgis.com/home/</a> in Firefox or Chrome and sign in to your account.
+</li>
+
+<li>Once you are signed in type the name of your 3ws file in the Search box at the top right and click Enter.
+
+
+<div class="figure">
+<p><img src="images/ArcGIS_Search.png" alt="ArcGIS_Search.png" />
+</p>
+</div>
+</li>
+
+<li>Click on the "Open" link below your scene icon to open the web scene.
+</li>
+
+<li>Copy the entire URL text in the URL bar and paste into an email to share the web scene with others.
+
+
+<div class="figure">
+<p><img src="images/ArcGIS_URL.png" alt="ArcGIS_URL.png" />
+</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> CityEngine Resources</h2>
+<div class="outline-text-2" id="text-2">
+<ul class="org-ul">
+<li><a href="http://resources.arcgis.com/en/help/cityengine/10.2/index.html#//02w100000003000000">Quick intro to CityEngine and brief tutorials</a>
+</li>
+
+<li><a href="http://www.esri.com/software/cityengine/industries/redlands-redevelopment">Redlands Redevelopment Tutorial</a>
+    I found this one extremely helpful
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Nick Peihl</p>
+<p class="date">Created: 2014-08-22 Fri 15:54</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.7b)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
