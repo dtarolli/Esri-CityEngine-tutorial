@@ -1,6 +1,6 @@
 * Creating 3D Models in CityEngine in San Juan County, Washington
 
-See [[file:Help.org][Help.org]] for instructions
+  See the [[file:Tutorial.org][Tutorial]] for instructions.
 
 ** License
 
